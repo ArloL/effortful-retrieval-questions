@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=knUitQQnpJo
 24. What is shared_buffers?
 25. How to set shared_buffers?
 26. How to set work_mem?
-27. What is a planner node?
+27. What is a plan node?
 28. How big maintenance_work_mem?
 29. What is effective_cache_size?
 30. How big effective_cache_size?

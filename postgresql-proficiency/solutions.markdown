@@ -27,8 +27,8 @@
     1. Start low 32 - 64 MB
     2. Loog for temporary file lines in logs
     3. Set to 2x-3x of the largest temp file but bump slowly
-    4. Be careful can use work_mem per planner node
-27. 
+    4. Be careful can use multiple of work_mem per query if sort/hash operations are run in parallel
+27. Part of the execution plan
 28. 10% memory. 1GB max. when you have vacuum problems you may set this higher
 29. Hint to planner of how much memory is available
 30. Set to amount of file system cache or 75% memory
@@ -66,5 +66,5 @@
 44. No.
 45. Yes.
 46. custom
-47. 
+47. a binary copy of the entire database cluster
 48. ANALYZE
